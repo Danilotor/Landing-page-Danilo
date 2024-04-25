@@ -2,7 +2,7 @@
     .trabalhos {
         width: 800px;
         height: 840px;
-
+       align-items: c;
 
     }
 
@@ -179,13 +179,24 @@
         flex-direction: row;
     }
     .descricao-projetos{
-        width: 400px;
+        width: 350px;
         align-items: center;
+        justify-content: center;
     }
  .trabalhos{
-    width: 500px;
+    width: 400px;
  }
 
 
+
+}
+
+
+@media (max-width:400px){
+
+    .projetos{
+        align-items: center;
+        justify-content: center;
+    }
 
 }
