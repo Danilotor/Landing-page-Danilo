@@ -1,0 +1,88 @@
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titulo-trabalhos {
+    color: aliceblue;
+}
+
+.trabalhos {
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.imagens-parte-cima,
+.imagens-parte-baixo {
+    display: flex;
+    width: 80%;
+    height: 100%;
+
+
+}
+
+.imagens-parte-cima a {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    transition: 1s ease-out;
+    
+    
+}
+
+.imagens-parte-baixo a {
+    margin-top: -90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    transition: 1s ease-out;
+   
+}
+
+.imagens-parte-baixo :hover,
+.imagens-parte-cima :hover {
+    width: 150%;
+     background-size: cover;
+    border: solid 3px ;
+
+}
+
+
+.one-piece {
+
+    background-image: url("../imagens/one-piece.png");
+    border-radius: 20px 0px 0px 0px;
+}
+
+
+
+.login {
+    background-image: url("../imagens/CRIAR\ ACESSO\ AO\ SITE\ COM\ VERIFICAÇÃO\ DE\ CARACTERES.png");
+    border-radius: 0px 0px 0px 20px;
+
+}
+
+
+
+.imagens {
+    background-image: url("../imagens/trabalho\ de\ seleçao\ de\ imagens.png");
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+.huddle {
+    background-image: url('../imagens/Captura\ de\ tela\ 2024-04-03\ 111957.png');
+    border-radius: 0px 20px 0px 0px;
+}

@@ -1,0 +1,191 @@
+@media (max-width:1080px) {
+    .trabalhos {
+        width: 800px;
+        height: 840px;
+
+
+    }
+
+    .logoimagen {
+
+        flex-direction: column;
+
+    }
+
+    .logoimagen img {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+
+    }
+
+    .redes-sociais {
+
+        justify-content: center;
+        margin-right: 0px;
+
+    }
+
+
+}
+
+
+@media (max-width:800px) {
+
+    .menu img {
+        width: 100px;
+    }
+
+    .menu {
+        gap: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .menu-inicial {
+        margin-right: 300px;
+        font-weight: 400;
+
+
+    }
+
+    .menu-inicial ul {
+        font-size: 25px;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .menu-inicial ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        height: 50px;
+        width: 120px;
+        transition: 1s;
+
+    }
+
+    .nome,
+    .titulo-resumo {
+        font-size: 25px;
+    }
+
+    .conhecimento,
+    .resumo {
+        font-size: 15px;
+    }
+
+
+
+    .logoimagen {
+
+        flex-direction: column;
+
+    }
+
+    .logoimagen img {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+
+    }
+    .descricao-projetos{
+        display: flex;
+        font-size: 15px;
+        flex-wrap: nowrap;
+    }
+    .redes-sociais {
+
+        justify-content: center;
+        margin-right: 0px;
+
+    }
+}
+
+@media (max-width:500px) {
+
+    html body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .container-principal {
+        width: 500px;
+        
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+  .menu{
+    flex-direction: column;
+    
+    justify-content:center;
+    width: 350px;
+
+
+  }  
+
+  .logo{
+    margin: 0;
+  }
+  
+  .menu img{
+    margin: 0;
+  }
+.menu-inicial{
+    margin: 0;
+    
+    justify-content: center;
+    align-items: start;
+    
+}
+    .conhecimentos {
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    
+    .conhecimento,
+    .resumo {
+        width: 400px;
+
+    }
+    .nome-e-conhecimentos {
+        margin: 0;
+
+    }
+
+
+    .logoimagen{
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .logoimagen {
+        padding-top: 20px;
+        flex-direction: row;
+    }
+    .descricao-projetos{
+        width: 400px;
+        align-items: center;
+    }
+ .trabalhos{
+    width: 500px;
+ }
+
+
+
+}
